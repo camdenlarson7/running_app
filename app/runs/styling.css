@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: darkblue;
+    margin: 0;
+  }
