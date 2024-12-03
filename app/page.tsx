@@ -32,7 +32,7 @@ export default function AuthPage() {
       }
     } else {
       // Login Logic
-      const { data: signInData, error: loginError } = await supabase.auth.signInWithPassword({
+      const { error: loginError } = await supabase.auth.signInWithPassword({
         email,
         password,
       });

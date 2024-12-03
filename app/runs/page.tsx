@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { supabase } from "../supabase";
 import '../globals.css';
-import styles from '../styling.module.css';
 
 interface Run {
   id?: number;
